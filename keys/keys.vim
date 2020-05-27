@@ -6,6 +6,7 @@ imap ,, <Esc>
 nmap <leader>c :copen<CR>
 nmap <leader>cc :cclose<CR>
 nmap <leader>n :nohlsearch<CR>
+nmap <leader>. <C-^>
 
 " Better indenting
 vnoremap < <gv
