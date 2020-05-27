@@ -22,7 +22,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Themes
   Plug 'christianchiarulli/onedark.vim'
   " CoC 
-  "Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
   " Airline
   Plug 'vim-airline/vim-airline'
   " Ranger
