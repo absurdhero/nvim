@@ -44,9 +44,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mhinz/vim-startify'
   " Vista (LSP Viewer/Finder)
   Plug 'liuchengxu/vista.vim'
-  " See what keys do like in emacs
-  Plug 'liuchengxu/vim-which-key'
-
 call plug#end()
 
 " Automatically install missing plugins on startup
