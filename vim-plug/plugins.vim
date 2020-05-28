@@ -17,8 +17,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'justinmk/vim-sneak'
   " Language syntax pack 
   Plug 'sheerun/vim-polyglot'
-  " Add dev icons 
-  Plug 'ryanoasis/vim-devicons'
   " Themes
   Plug 'christianchiarulli/onedark.vim'
   " CoC 
@@ -44,6 +42,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mhinz/vim-startify'
   " Vista (LSP Viewer/Finder)
   Plug 'liuchengxu/vista.vim'
+  " Add dev icons 
+  Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 " Automatically install missing plugins on startup
