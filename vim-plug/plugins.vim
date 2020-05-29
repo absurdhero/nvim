@@ -44,6 +44,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'liuchengxu/vista.vim'
   " Add dev icons 
   Plug 'ryanoasis/vim-devicons'
+  " Interactive repl / virtual text
+  Plug 'ChristianChiarulli/codi.vim'
 call plug#end()
 
 " Automatically install missing plugins on startup
