@@ -7,6 +7,7 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
+  Plug 'gruvbox-community/gruvbox'
   Plug 'preservim/nerdtree'
   " Change CWD to project root if it exists
   Plug 'airblade/vim-rooter'
